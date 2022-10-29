@@ -7,7 +7,7 @@ class RandomWords extends StatefulWidget {
   @override
   RandomWordsState createState() => RandomWordsState();
 }
-
+//added random stuff here too
 class RandomWordsState extends State<RandomWords> 
 {
   final _randomWordPairs = <WordPair>[];
@@ -49,6 +49,7 @@ class RandomWordsState extends State<RandomWords>
               _savedWordPairs.add(pair);
             }
           });
+          //added stuff here too
         });
   }
 
